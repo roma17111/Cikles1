@@ -11,6 +11,10 @@ public class Main {
             for ( int c = 2; c < 17; c = c+2) {
                 System.out.println("Число " + c);
             }
+            for (int d = 10; d >= -10; d --) {
+                System.out.println("Число " + d);
+            }
+
 
         }
     }

@@ -24,6 +24,10 @@ public class Main {
             System.out.println("Число " + g);
         }
 
+        for (int f = 1; f <= 512; f *=2) {
+            System.out.println("Число " + f);
+        }
+
 
 
 

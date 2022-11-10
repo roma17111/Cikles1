@@ -20,6 +20,11 @@ public class Main {
             System.out.println(y + " год является высокосным");
 
         }
+        for (int g =7; g <=98; g+=7) {
+            System.out.println("Число " + g);
+        }
+
+
 
 
     }

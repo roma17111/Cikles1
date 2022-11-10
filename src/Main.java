@@ -20,14 +20,19 @@ public class Main {
             System.out.println(y + " год является высокосным");
 
         }
-        for (int g =7; g <=98; g+=7) {
+        for (int g = 7; g <= 98; g += 7) {
             System.out.println("Число " + g);
         }
 
-        for (int f = 1; f <= 512; f *=2) {
+        for (int f = 1; f <= 512; f *= 2) {
             System.out.println("Число " + f);
         }
-
+        int deposit = 29000;
+        int total = 0;
+        for (int m = 1; m <= 12; m++) {
+            total = total + deposit;
+            System.out.println("Месяц " + m + " сумма накоплений равна " + total + " рублей");
+        }
 
 
 
